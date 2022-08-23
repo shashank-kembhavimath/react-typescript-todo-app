@@ -1,8 +1,9 @@
-type Todo = {
+export type Todo = {
   text: string;
   complete: boolean;
 };
 
-type ToggleComplete = (selectedTodo: Todo) => void;
+export type ToggleComplete = (selectedTodo: Todo) => void;
 
-type AddTodo = (newTodo: string) => void;
+export type AddTodo = (newTodo: string) => void;
+
